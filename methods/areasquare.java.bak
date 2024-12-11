@@ -1,0 +1,14 @@
+class areasquare
+{
+	static void area()
+	{
+		int b=2;
+		int h=2;
+	double a=0.5*b*h;
+		System.out.println("area is "+a);
+	}
+	public static void main(String[] args)
+	{
+		area();
+	}
+}

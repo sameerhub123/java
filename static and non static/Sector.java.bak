@@ -1,0 +1,15 @@
+class Sector
+{
+	void area()
+	{
+		int r=5;
+		int t=6;
+		double r=0.5*r*r*t;
+		System.out.println(r);
+	}
+
+public static void main(String[] args)
+{
+	new Sector().area();
+}
+}
